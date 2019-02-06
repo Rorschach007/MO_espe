@@ -1,0 +1,101 @@
+body {
+  background-color: #000000;
+  background-image: url(../images/background.jpg);
+  background-size: 100% ;
+  background-repeat: repeat-y;
+  background-position:top center;
+  background-attachment: fixed;
+  margin: 0px;
+}
+.greets{
+font-family: Arial, sans-serif;
+line-height: 24px;
+font-size: 11px;
+width: 50%;
+background: #000;
+opacity: 0.9;
+text-transform: uppercase;
+z-index: 9999;
+border-radius:10px;
+-moz-box-shadow: 1px 0px 2px #000;
+-webkit-box-shadow: 1px 0px 2px #000;
+box-shadow: 1px 0px 2px #000;
+}
+.image-espe{
+  text-align: center;
+  margin-top: 2%;
+}
+.image-espe>img{
+  border-radius: 35px;
+  opacity: 0.9;
+  width: 60%;
+}
+.title{
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.menu{
+    background-color: rgb(1, 6, 25);
+    opacity: 0.8;
+    width: 70%;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-bottom: 2%;
+}
+.controles{
+  background-color: rgb(1, 6, 20);
+  width: 70%;
+  color: white
+}
+.sensor{
+  border: solid white 2px;
+  font-size: 30px
+}
+button{
+  width: 90%;
+  margin: 1%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.on {
+  background-color: #369e32; /* Green */
+}
+.off{
+  background-color: #900406; /* Green */
+}
+.first{
+  background-color: #d4df31;
+}
+.second{
+  background-color: #78e133;
+}
+.third{
+  background-color: #1e4ded;
+}
+.game{
+  background-color: #818ce2;
+  width: 40%;
+  font-size: 25px;
+  text-align: center;
+  padding: 3%;
+}
+button:hover{
+  opacity: 0.6;
+}
+@media only screen and (max-width: 400px) {
+  .image-espe{
+    width: 100%;
+  }
+ .image-espe>img.{
+   width: 100%;
+ }
+ .title-sensor{
+   font-size: 22px;
+ }
+}
